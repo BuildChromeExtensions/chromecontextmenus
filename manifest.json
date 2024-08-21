@@ -1,0 +1,11 @@
+{
+    "name": "Chrome Menus",
+    "manifest_version": 3,
+    "version": "1.0.0.0",
+    "permissions": [
+        "contextMenus"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
